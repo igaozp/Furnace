@@ -945,6 +945,11 @@
   resolved "https://registry.npm.taobao.org/@types/validator/download/@types/validator-13.1.0.tgz?cache=0&sync_timestamp=1592980670030&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fvalidator%2Fdownload%2F%40types%2Fvalidator-13.1.0.tgz#3d776127dbce7dd31fc06f86d3428b072e631eba"
   integrity sha1-PXdhJ9vOfdMfwG+G00KLBy5jHro=
 
+"@types/validator@13.0.0":
+  version "13.0.0"
+  resolved "https://registry.npm.taobao.org/@types/validator/download/@types/validator-13.0.0.tgz#365f1bf936aeaddd0856fc41aa1d6f82d88ee5b3"
+  integrity sha1-Nl8b+Taurd0IVvxBqh1vgtiO5bM=
+
 "@types/webpack-sources@*":
   version "1.4.0"
   resolved "https://registry.npm.taobao.org/@types/webpack-sources/download/@types/webpack-sources-1.4.0.tgz?cache=0&sync_timestamp=1591057064697&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fwebpack-sources%2Fdownload%2F%40types%2Fwebpack-sources-1.4.0.tgz#e58f1f05f87d39a5c64cf85705bdbdbb94d4d57e"
@@ -1950,6 +1955,11 @@ cipher-base@^1.0.0, cipher-base@^1.0.1, cipher-base@^1.0.3:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
 
+class-transformer@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.npm.taobao.org/class-transformer/download/class-transformer-0.3.1.tgz#ee681a5439ff2230fc57f5056412d3befa70d597"
+  integrity sha1-7mgaVDn/IjD8V/UFZBLTvvpw1Zc=
+
 class-utils@^0.3.5:
   version "0.3.6"
   resolved "https://registry.npm.taobao.org/class-utils/download/class-utils-0.3.6.tgz#f93369ae8b9a7ce02fd41faad0ca83033190c463"
@@ -1959,6 +1969,16 @@ class-utils@^0.3.5:
     define-property "^0.2.5"
     isobject "^3.0.0"
     static-extend "^0.1.1"
+
+class-validator@^0.12.2:
+  version "0.12.2"
+  resolved "https://registry.npm.taobao.org/class-validator/download/class-validator-0.12.2.tgz#2ceb72f88873e9c714cf5f9c278cbc71f6f6c8ef"
+  integrity sha1-LOty+Ihz6ccUz1+cJ4y8cfb2yO8=
+  dependencies:
+    "@types/validator" "13.0.0"
+    google-libphonenumber "^3.2.8"
+    tslib ">=1.9.0"
+    validator "13.0.0"
 
 cli-color@2.0.0:
   version "2.0.0"
@@ -3449,6 +3469,11 @@ globals@^12.1.0:
   integrity sha1-oYgTV2pBsAokqX5/gVkYwuGZJfg=
   dependencies:
     type-fest "^0.8.1"
+
+google-libphonenumber@^3.2.8:
+  version "3.2.13"
+  resolved "https://registry.npm.taobao.org/google-libphonenumber/download/google-libphonenumber-3.2.13.tgz#8f41f2ce1739d40e2b9ebccc75dca95474cdf0b5"
+  integrity sha1-j0Hyzhc51A4rnrzMddypVHTN8LU=
 
 graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0, graceful-fs@^4.2.4:
   version "4.2.4"
@@ -7259,6 +7284,11 @@ tslib@2.0.0:
   resolved "https://registry.npm.taobao.org/tslib/download/tslib-2.0.0.tgz?cache=0&sync_timestamp=1589412852592&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ftslib%2Fdownload%2Ftslib-2.0.0.tgz#18d13fc2dce04051e20f074cc8387fd8089ce4f3"
   integrity sha1-GNE/wtzgQFHiDwdMyDh/2Aic5PM=
 
+tslib@>=1.9.0:
+  version "2.0.1"
+  resolved "https://registry.npm.taobao.org/tslib/download/tslib-2.0.1.tgz?cache=0&sync_timestamp=1596751904317&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ftslib%2Fdownload%2Ftslib-2.0.1.tgz#410eb0d113e5b6356490eec749603725b021b43e"
+  integrity sha1-QQ6w0RPltjVkkO7HSWA3JbAhtD4=
+
 tslib@^1.8.1, tslib@^1.9.0:
   version "1.13.0"
   resolved "https://registry.npm.taobao.org/tslib/download/tslib-1.13.0.tgz?cache=0&sync_timestamp=1589412852592&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ftslib%2Fdownload%2Ftslib-1.13.0.tgz#c881e13cc7015894ed914862d276436fa9a47043"
@@ -7499,6 +7529,11 @@ validate-npm-package-license@^3.0.1:
   dependencies:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
+
+validator@13.0.0:
+  version "13.0.0"
+  resolved "https://registry.npm.taobao.org/validator/download/validator-13.0.0.tgz#0fb6c6bb5218ea23d368a8347e6d0f5a70e3bcab"
+  integrity sha1-D7bGu1IY6iPTaKg0fm0PWnDjvKs=
 
 validator@^10.11.0:
   version "10.11.0"
